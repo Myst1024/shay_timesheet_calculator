@@ -31,7 +31,7 @@
 }
 
 .cat {
-  width:25%;
+  height: 200px;
 }
 
 .headerText {
@@ -40,4 +40,8 @@
 
 .punchContainer>div:nth-child(even) {
   background-color: #eae8e8;
+}
+
+.totals {
+  text-align: left;
 }
