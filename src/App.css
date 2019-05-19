@@ -43,7 +43,13 @@
 
 .headerText > h1 {
   margin: 0;
-
+}
 .punchContainer>div:nth-child(even) {
   background-color: #eae8e8;
+}
+
+.totals {
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px #c3c3c3;
+    padding: 5px 2px;
 }
