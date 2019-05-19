@@ -24,14 +24,17 @@
 }
 
 .calculator {
-  margin: 30px auto;
-  width: 85%;
-  display: flex;
-  justify-content: space-evenly;
+    margin: 30px auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 4px 10px #ababab;
+    padding-bottom: 15px;
 }
 
 .cat {
   width:25%;
+  border-radius: 25px;
 }
 
 .headerText {
