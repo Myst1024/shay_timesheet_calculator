@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shay_timesheet_calculator/precache-manifest.b6c7e2b2d5d2d0d9997f2f786896cd01.js"
+  "/shay_timesheet_calculator/precache-manifest.366101367cf2d3c3cee2df35cada8476.js"
 );
 
 self.addEventListener('message', (event) => {
