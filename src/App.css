@@ -12,7 +12,7 @@
   background-color: #282c34;
   padding: 24px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -25,5 +25,19 @@
 
 .calculator {
   margin: 30px auto;
-  width: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cat {
+  width:25%;
+}
+
+.headerText {
+  width:50%;
+}
+
+.punchContainer>div:nth-child(even) {
+  background-color: #eae8e8;
 }

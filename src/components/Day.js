@@ -4,15 +4,16 @@ import Punch from './Punch.js';
 
 
 function Day(props) {
-    console.log(props);
+    
     return(
         <div className="dayContainer">
-            {props.name}
-            <button onClick={(e) => props.updatePunch}>click</button>
-            {props.punches.map((punch) =>
-                <Punch key={punch.key} punchKey={punch.key} day={props.name} updatePunch={props.updatePunch}/>
-            )}
-            
+            <h3>{props.name}:</h3>
+            <h3>{props.hours}H {props.minutes}M</h3>
+            <div className="punchContainer">
+                {props.punches.map((punch, i) =>
+                    <Punch key={i} day={props.name} time={punch} dayIndex={props.dayIndex} punchIndex={i} updatePunch={props.updatePunch}/>
+                )}
+            </div>
         </div>
     )
 }
